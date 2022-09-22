@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>BMI Calculator</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <main>
+        <h3>BMI Calculator</h3>
+
+        <div class="weight">
+             <h4>Weight</h4>
+             <input type="number" placeholder="kg" id="kg">
+             <span>or</span>
+             <input type="number" placeholder="gram" id="gram">
+             <p class="alert weight-alert">You can't fill two fields at a time</p>
+        </div>
+
+        <div class="height">
+          <h4>Height</h4>
+          <input type="number" placeholder="Meter" id="meter">
+          <span>or</span>
+          <input type="number" placeholder="Feet" id="feet">
+          <p class="alert height-alert">You can't fill tow fields at a time</p>
+        </div>
+
+        <div class="calculate">
+             <Button id="submit">Calculate</Button>
+        </div>
+   </main>
+
+   <section class="result show-hide">
+        <div class="image">
+             <img src="./images/man1.png" />
+             <h4></h4>
+             <span></span>
+        </div>
+
+        <i>x</i>
+   </section>
+
+<script src="app.js"></script>
+</body>
+</html>
